@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mini-mate/static/css/main.c5dab966.css",
+    "main.js": "/mini-mate/static/js/main.c4c3b9a4.js",
+    "index.html": "/mini-mate/index.html",
+    "main.c5dab966.css.map": "/mini-mate/static/css/main.c5dab966.css.map",
+    "main.c4c3b9a4.js.map": "/mini-mate/static/js/main.c4c3b9a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5dab966.css",
+    "static/js/main.c4c3b9a4.js"
+  ]
+}
