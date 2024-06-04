@@ -9,7 +9,7 @@ export default function About() {
               <p>Willkommen bei unserem exklusiven Toy Australian Shepherd Zuchtprogramm im malerischen Harzer Vorland! Mit Stolz züchten wir die kleinste Version des Australian Shepherds und achten dabei stets darauf optisch dem Standard zu entsprechen. Trotz der gewünschten Größe von unter 35 cm, streben wir ein harmonisches Körperbild mit ausgewogenen Proportionen, einem markantem Kopf und kräftigem Knochenbau an. Unser Ziel ist es, gut gelaunte und umgängliche Familienhunde zu schaffen, die sich durch ihre enge Bindung zu ihren Menschen auszeichnen. Unsere Zucht konzentriert sich jedoch nicht nur auf das äußere Erscheinungsbild, sondern insbesondere auf die Wesensmerkmale, die einen idealen Begleiter ausmachen. </p>
             </div>
             <div className="text_right">
-              <img src="gfx/g8.jpg">
+              <img src="mini-mate/gfx/g8.jpg">
               </img>
               <div>
                 <p>Leichtführigkeit und ein ausgeprägter "Will to Please" stehen bei uns an oberster Stelle. Wir legen großen Wert darauf, Hunde zu züchten, die sich problemlos in den Alltag integrieren lassen, leicht trainierbar sind und mit Begeisterung ihren Besitzern gefallen möchten.</p>

@@ -7,7 +7,7 @@ export default function DogsPage() {
         <h2 className="headline">Unsere MiniMates</h2>
         <div className="dogs_page_wrapper">
             <div className="dog_card">
-                <div className="dog_image"><img src="gfx/g7.jpg"></img></div>
+                <div className="dog_image"><img src="mini-mate/gfx/g7.jpg"></img></div>
                 <div className="dog_description">
                     <h4 className="dog_name">Cross L’s Foggy Maple Forest</h4>
                     <small>(USA Import)</small>
@@ -32,7 +32,7 @@ export default function DogsPage() {
                 </div>
             </div>
             <div className="dog_card">
-                <div className="dog_image"><img src="gfx/g5.jpg"></img></div>
+                <div className="dog_image"><img src="mini-mate/gfx/g5.jpg"></img></div>
                 <div className="dog_description">
                     <h4 className="dog_name">Enloe‘s Cosmic Eclipse</h4>
                     <small>(USA Import)</small>
