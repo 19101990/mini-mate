@@ -42,7 +42,7 @@ export default function Header() {
   return (
     <header id="header" className="header__wrapper">
       <div className="logo">
-        <Link to={`/`}> 
+        <Link to={`/home`}> 
           <h2 className=''>Mini Mate</h2>
         </Link>
       </div>
@@ -52,7 +52,7 @@ export default function Header() {
           <div className="menu_wrapper">
             <ul className="menu">
               <li className=''>
-                <Link to={`/`} onClick={()=>setOpen(false)}>Home</Link>
+                <Link to={`/home`} onClick={()=>setOpen(false)}>Home</Link>
               </li>
               <li className=''>
                 <Link to={`/dogs`} onClick={()=>setOpen(false)}>Our Dogs</Link>
@@ -71,7 +71,7 @@ export default function Header() {
         ) : (
           <ul className="menu">
             <li className=''>
-              <Link to={`/`}>Home</Link>
+              <Link to={`/home`}>Home</Link>
             </li>
             <li className=''>
               <Link to={`/dogs`}>Our Dogs</Link>

@@ -6,17 +6,13 @@ import ContactPage from "./pages/ContactPage";
 import ScrollTop from "./components/ScrollTop";
 import './App.css'
 
-import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client"
+
 import {
   BrowserRouter,
   Routes,
-  Route
+  Route,
+  Navigate
 } from "react-router-dom";
-// initialize apollo client
-const client = new ApolloClient({
-  uri: 'http://localhost:1337/graphql',
-  cache: new InMemoryCache()
-})
 
 
 
@@ -24,18 +20,17 @@ function App() {
 
   return (
     <BrowserRouter>
-      <ApolloProvider client={client}>
       <ScrollTop />
           <div> 
             <Header />
             <Routes>
-              <Route path="/" element={<Homepage />} />
+              <Route path="/mini-mate" element={<Navigate replace to="/home" />} />
+              <Route path="/home" element={<Homepage />} />
               <Route path="dogs" element={<DogsPage />} />
               <Route path="contact" element={<ContactPage />} />
             </Routes>
             <Footer />
           </div>
-      </ApolloProvider>
     </BrowserRouter>
   );
 }
