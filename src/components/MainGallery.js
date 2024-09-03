@@ -4,7 +4,7 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 
 const photos = [
     {
-      src: "mini-mate/gfx/g1.jpg",
+      src: "gfx/g1.jpg",
       width: 2560,
       height: 1700
     },
