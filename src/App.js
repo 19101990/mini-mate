@@ -24,8 +24,8 @@ function App() {
           <div> 
             <Header />
             <Routes>
-              <Route path="/mini-mate" element={<Navigate replace to="/" />} />
-              <Route path="/" element={<Navigate replace to="/" />} />
+              <Route path="/mini-mate" element={<Homepage />} />
+              <Route path="/" element={<Homepage />} />
               <Route path="dogs" element={<DogsPage />} />
               <Route path="contact" element={<ContactPage />} />
             </Routes>
