@@ -24,8 +24,8 @@ function App() {
           <div> 
             <Header />
             <Routes>
-              <Route path="/mini-mate" element={<Homepage />} />
-              <Route path="/" element={<Homepage />} />
+              <Route path="/main" element={<Homepage />} />
+              <Route path="/home" element={<Homepage />} />
               <Route path="dogs" element={<DogsPage />} />
               <Route path="contact" element={<ContactPage />} />
             </Routes>
