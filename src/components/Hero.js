@@ -6,7 +6,7 @@ export default function Hero() {
     return (
         <div className="hero">
           <div className="hero_img">
-            <img src="mini-mate/gfx/hero.jpg"></img>
+            <img src="gfx/hero.jpg"></img>
           </div>
           <div className="hero_text">
               <span>Willkommen bei unserem</span>

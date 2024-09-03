@@ -9,77 +9,77 @@ const photos = [
       height: 1700
     },
     {
-      src: "mini-mate/gfx/g2.jpg",
+      src: "gfx/g2.jpg",
       width: 2560,
       height: 1700
     },
     {
-      src: "mini-mate/gfx/g3.jpg",
+      src: "gfx/g3.jpg",
       width: 1699,
       height: 1700
     },
     {
-      src: "mini-mate/gfx/g4.jpg",
+      src: "gfx/g4.jpg",
       width: 1920,
       height: 2560
     },
     {
-      src: "mini-mate/gfx/g5.jpg",
+      src: "gfx/g5.jpg",
       width: 2560,
       height: 1700
     },
     {
-      src: "mini-mate/gfx/g6.jpg",
+      src: "gfx/g6.jpg",
       width: 2560,
       height: 1700
     },
     {
-      src: "mini-mate/gfx/g7.jpg",
+      src: "gfx/g7.jpg",
       width: 2560,
       height: 1700
     },
     {
-      src: "mini-mate/gfx/g8.jpg",
+      src: "gfx/g8.jpg",
       width: 1600,
       height: 1062
     },
     {
-      src: "mini-mate/gfx/g9.jpg",
+      src: "gfx/g9.jpg",
       width: 2560,
       height: 1438
     },
     {
-      src: "mini-mate/gfx/g10.jpg",
+      src: "gfx/g10.jpg",
       width: 537,
       height: 954
     },
     {
-      src: "mini-mate/gfx/g11.jpg",
+      src: "gfx/g11.jpg",
       width: 2560,
       height: 1438
     },
     {
-      src: "mini-mate/gfx/g12.jpg",
+      src: "gfx/g12.jpg",
       width: 1697,
       height: 1438
     },
     {
-      src: "mini-mate/gfx/g13.jpg",
+      src: "gfx/g13.jpg",
       width: 958,
       height: 1438
     },
     {
-      src: "mini-mate/gfx/g14.jpg",
+      src: "gfx/g14.jpg",
       width: 2560,
       height: 1438
     },
     {
-      src: "mini-mate/gfx/g15.jpg",
+      src: "gfx/g15.jpg",
       width: 2560,
       height: 1700
     },
     {
-      src: "mini-mate/gfx/g16.jpg",
+      src: "gfx/g16.jpg",
       width: 2560,
       height: 1438
     },
