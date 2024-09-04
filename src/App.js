@@ -21,16 +21,16 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollTop />
-          <div> 
-            <Header />
-            <Routes>
-              <Route path="/mini-mate" element={<Navigate replace to="/" />} />
-              <Route path="/" element={<Homepage />} />
-              <Route path="dogs" element={<DogsPage />} />
-              <Route path="contact" element={<ContactPage />} />
-            </Routes>
-            <Footer />
-          </div>
+      <div>
+        <Header />
+        <Routes>
+          {/* <Route path="/mini-mate" element={<Navigate replace to="/" />} /> */}
+          <Route path="/" element={<Homepage />} />
+          <Route path="dogs" element={<DogsPage />} />
+          <Route path="contact" element={<ContactPage />} />
+        </Routes>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
