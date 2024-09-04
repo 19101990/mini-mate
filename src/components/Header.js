@@ -71,7 +71,7 @@ export default function Header() {
       ) : (
           <ul className="menu">
             <li className=''>
-              <Link to={`/home`}>Home</Link>
+              <Link to={`/`}>Home</Link>
             </li>
             <li className=''>
               <Link to={`/dogs`}>Our Dogs</Link>
