@@ -7,10 +7,10 @@ import { LuPhone } from "react-icons/lu";
 
 export default function Header() {
   const [scroll, setScroll] = useState(false);
-    useEffect(() => {
-      window.addEventListener("scroll", () => {
-        setScroll(window.scrollY > 50);
-      });
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 50);
+    });
   }, []);
 
   // menu on resize
@@ -29,7 +29,7 @@ export default function Header() {
 
 
   const [isOpen, setOpen] = useState(false);
-  const {pathname} = useLocation();
+  const { pathname } = useLocation();
 
   document.addEventListener('scroll', function documentScrollFunction(e) {
     if (window.scrollY > 0) {
@@ -42,7 +42,7 @@ export default function Header() {
   return (
     <header id="header" className="header__wrapper">
       <div className="logo">
-        <Link to={`/home`}> 
+        <Link to={`/`}>
           <h2 className=''>Mini Mate</h2>
         </Link>
       </div>
@@ -52,23 +52,23 @@ export default function Header() {
           <div className="menu_wrapper">
             <ul className="menu">
               <li className=''>
-                <Link to={`/home`} onClick={()=>setOpen(false)}>Home</Link>
+                <Link to={`/`} onClick={() => setOpen(false)}>Home</Link>
               </li>
               <li className=''>
-                <Link to={`/dogs`} onClick={()=>setOpen(false)}>Our Dogs</Link>
+                <Link to={`/dogs`} onClick={() => setOpen(false)}>Our Dogs</Link>
               </li>
               <li className=''>
-                <Link to={`/contact`} onClick={()=>setOpen(false)}>Contact Us</Link>
+                <Link to={`/contact`} onClick={() => setOpen(false)}>Contact Us</Link>
               </li>
             </ul>
             <div className='header_links'>
-                <a href="https://instagram.com/simpli.us_lfm"><span className="icon"><FaInstagram /></span></a>
-                <a href="tel:0000000000"><span className="icon"><LuPhone /></span></a>
-                <a href="mailto:mail@mail.com"><span className="icon"><LuMail /></span></a>
+              <a href="https://instagram.com/simpli.us_lfm"><span className="icon"><FaInstagram /></span></a>
+              <a href="tel:0000000000"><span className="icon"><LuPhone /></span></a>
+              <a href="mailto:mail@mail.com"><span className="icon"><LuMail /></span></a>
             </div>
           </div>
         </div>
-        ) : (
+      ) : (
           <ul className="menu">
             <li className=''>
               <Link to={`/home`}>Home</Link>
