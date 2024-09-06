@@ -577,6 +577,86 @@ html:not(:has(#main)) header + div {
   }
 }
 
+
+// puppies
+
+.puppies_page {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 140px;
+  .headline {
+    margin-bottom: 100px;
+  }
+  .headline__small {
+    font-size: 20px;
+    color: var(--primary-color);
+  }
+  .puppies_page_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    .puppy_card {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+      align-items: center;
+      padding: 20px;
+      border: 1px solid #e7e7e7;
+      .puppy_image {
+        img {
+          max-width: 100%;
+          object-fit: cover;
+          height: 100%;
+        }
+      }
+      .puppy_description {
+        padding-top: 5px;
+        ul {
+          list-style: square;
+          padding-left: 40px;
+        }
+        p {
+          margin-top: 5px;
+          margin-bottom: 5px;
+        }
+      }
+      .puppy_name {
+        font-size: 24px;
+        margin: 0;
+      }
+    }
+  }
+  @media(max-width: 756px) {
+    margin-bottom: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: calc(100vw - 30px);
+    .headline {
+      margin-bottom: 40px;
+      font-size: 42px;
+      padding: 0 15px;
+    }
+    .headline__small {
+      text-align: center;
+      margin-bottom: 15px;
+      margin-top: 0;
+    }
+    .puppies_page_wrapper {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 15px;
+      .puppy_card {
+        margin-bottom: 0;
+        .puppy_description {
+          padding-left: 0;
+          margin-left: 15px;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}
+
 // contact page
 
 .contact_page {
