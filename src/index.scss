@@ -564,9 +564,39 @@ html:not(:has(#main)) header + div {
     margin-bottom: 100px;
   }
   .dogs_page_wrapper {
+    .dog_card__wrapper {
+      margin-bottom: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .dog_card__tree {
+        margin-top: 10px;
+        img.tree_desktop {
+          @media(min-width: 979px) {
+            display: block;
+          }
+          @media(max-width: 978px) {
+            display: none;
+          }
+        }
+        img.tree_mobile {
+          @media(min-width: 979px) {
+            display: none;
+          }
+          @media(max-width: 978px) {
+            display: block;
+          }
+        }
+        img {
+          max-width: 100%;
+          @media(max-width: 756px) {
+            max-width: 86%;
+          }
+        }
+      }
+    }
     .dog_card {
       display: flex;
-      margin-bottom: 100px;
       .dog_image, .dog_description {
         flex: 1 0 50%;
         max-width: 50%;
@@ -599,9 +629,13 @@ html:not(:has(#main)) header + div {
       padding: 0 15px;
     }
     .dogs_page_wrapper {
+      overflow: hidden;
+      .dog_card__wrapper {
+        margin-bottom: 60px;
+      }
       .dog_card {
         display: flex;
-        margin-bottom: 60px;
+        margin-bottom: 0px;
         flex-direction: column;
         & > * {
           flex: 1 0 100% !important;
@@ -624,7 +658,6 @@ html:not(:has(#main)) header + div {
             background: var(--primary-color);
             color: #fff;
             width: 100vw;
-            margin-left: -15px;
             padding-top: 5px;
             padding-bottom: 5px;
             text-align: center;
