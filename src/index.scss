@@ -368,6 +368,7 @@ html:not(:has(#main)) header + div {
     display: flex;
     flex-direction: column;
     height: auto;
+    margin-bottom: 55px;
     .hero_img {
       &:before {
         content: none;
@@ -624,8 +625,10 @@ html:not(:has(#main)) header + div {
   @media(max-width: 756px) {
     margin-bottom: 80px;
     .headline {
-      margin-bottom: 60px;
-      font-size: 42px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      font-size: 40px;
+      line-height: 40px;
       padding: 0 15px;
     }
     .dogs_page_wrapper {
@@ -661,6 +664,10 @@ html:not(:has(#main)) header + div {
             padding-top: 5px;
             padding-bottom: 5px;
             text-align: center;
+          }
+          div {
+            padding-left: 15px;
+            padding-right: 15px;
           }
         }
         .dog_image {
@@ -728,7 +735,9 @@ html:not(:has(#main)) header + div {
     width: calc(100vw - 30px);
     .headline {
       margin-bottom: 40px;
-      font-size: 42px;
+      margin-top: 40px;
+      font-size: 40px;
+      line-height: 40px;
       padding: 0 15px;
     }
     .headline__small {
@@ -786,7 +795,11 @@ html:not(:has(#main)) header + div {
   }
   @media(max-width: 756px) {
     .headline {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      font-size: 40px;
+      line-height: 40px;
+      padding: 0 15px;
     }
     .contact_links {
       margin: 20px 0 20px;
