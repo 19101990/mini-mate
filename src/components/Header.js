@@ -61,6 +61,9 @@ export default function Header() {
                 <Link to={`/puppies`} onClick={() => setOpen(false)}>Puppies</Link>
               </li>
               <li className=''>
+                <Link to={`/gallery`} onClick={() => setOpen(false)}>Gallery</Link>
+              </li>
+              <li className=''>
                 <Link to={`/contact`} onClick={() => setOpen(false)}>Contact Us</Link>
               </li>
             </ul>
@@ -83,7 +86,10 @@ export default function Header() {
               <Link to={`/puppies`}>Puppies</Link>
             </li>
             <li className=''>
-              <Link to={`/contact`}>Contact Us</Link>
+              <Link to={`/gallery`}>Gallery</Link>
+            </li>
+            <li className=''>
+              <Link to={`/contact`}>Contact</Link>
             </li>
           </ul>
         )}
