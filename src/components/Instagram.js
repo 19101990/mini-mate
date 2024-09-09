@@ -6,7 +6,7 @@ export default function Instagram() {
 
     return (
         <div className="instagram">
-            <a href="https://instagram.com/simpli.us_lfm">For most recent updates, please follow our instagram!<span><GoArrowRight /></span></a>
+            <a href="https://instagram.com/simpli.us_lfm">For most recent updates follow our instagram!<span><GoArrowRight /></span></a>
         </div>
     );
 }
