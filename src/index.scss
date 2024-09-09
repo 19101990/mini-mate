@@ -1060,6 +1060,77 @@ html:not(:has(#main)) header + div {
   }
 }
 
+// About us page
+
+#about_page {
+  width: 100vw;
+  max-width: 1200px;
+  @media(max-width: 1230px) {
+    max-width: 970px;
+  }
+  @media(max-width: 1000px) {
+    max-width: 736px;
+  }
+  margin: 0 auto;
+  margin-bottom: 100px;
+  .headline {
+    margin-bottom: 60px;
+  }
+  .about_us {
+    .about_title {
+      font-family: "Lora", serif;
+      font-weight: 600;
+      font-size: 18px;
+      text-align: center;
+    }
+    .about_name {
+      font-style: italic;
+    }
+  }
+  .about_contact {
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+  .about_stories {
+    .about_story {
+      padding: 30px 30px 20px;
+      background: #f7f7f7;
+      margin-bottom: 30px;
+      border-radius: 20px;
+      h5 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 0;
+        font-family: "Lora", serif;
+      }
+      p {
+        font-style: italic;
+      }
+    }
+  }
+  @media(max-width: 756px) {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: calc(100vw - 30px);
+    .headline {
+      margin-bottom: 30px;
+    }
+    .about_title {
+      margin-bottom: 30px;
+    }
+    .about_contact {
+      margin-bottom: 40px;
+    }
+    .about_stories {
+      .about_story {
+        padding: 30px 20px 20px;
+      }
+    }
+  }
+}
+
+
+
 
 // footer
 
