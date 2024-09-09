@@ -22,6 +22,9 @@ export default function Footer() {
         </div>
 
       </div>
+      <div className="footer_copy">
+        <p>&copy; 2024 The Cold Well </p>
+      </div>
       <CookieConsent
         location="bottom"
         buttonText="Accept"

@@ -5,6 +5,7 @@ import DogsPage from "./pages/DogsPage";
 import PuppiesPage from "./pages/PuppiesPage";
 import GalleryPage from "./pages/GalleryPage";
 import ContactPage from "./pages/ContactPage";
+import AboutPage from "./pages/AboutPage";
 import ScrollTop from "./components/ScrollTop";
 import './App.css'
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="dogs" element={<DogsPage />} />
           <Route path="puppies" element={<PuppiesPage />} />
           <Route path="gallery" element={<GalleryPage />} />
+          <Route path="about" element={<AboutPage />} />
           <Route path="contact" element={<ContactPage />} />
         </Routes>
         <Footer />

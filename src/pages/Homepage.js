@@ -6,6 +6,7 @@ import MainGallery from "../components/MainGallery";
 import Post from "../components/Post";
 import Posts from "../components/Posts";
 import Blog from "../posts.json"
+import Instagram from "../components/Instagram";
 
 export default function Homepage() {
   if (document.getElementById('main')) {
@@ -32,6 +33,7 @@ export default function Homepage() {
           <Post post={post} />
         </div>
       </div>
+      <Instagram />
       {/* <MainGallery /> */}
     </div>
   );
