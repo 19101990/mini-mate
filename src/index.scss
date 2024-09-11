@@ -915,11 +915,12 @@ html:not(:has(#main)) header + div {
   margin: 0 auto;
   margin-bottom: 140px;
   .headline {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
   }
   .headline__small {
     font-size: 20px;
     color: var(--primary-color);
+    text-align: center;
   }
   .puppies_page_wrapper {
     display: grid;
@@ -1012,35 +1013,54 @@ html:not(:has(#main)) header + div {
 // contact page
 
 .contact_page {
+  width: 100vw;
+  max-width: 1200px;
+  @media(max-width: 1230px) {
+    max-width: 970px;
+  }
+  @media(max-width: 1000px) {
+    max-width: 736px;
+  }
+  margin: 0 auto;
+  margin-bottom: 140px;
+  .headline {
+    margin-bottom: 80px;
+  }
+  .contact_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
   .contact_links {
+    .contact_information {
+      padding: 0 1rem 1.5rem 0.6rem;
+    }
     display: flex;
     justify-content: start;
-    align-items: center;
-    margin: 50px 0 20px;
-    a {
+    align-items: start;
+    flex-direction: column;
+    margin: 0px 0 20px;
+    a, .contact_link {
       display: flex;
       align-items: center;
-      padding: 10px;
+      padding: 5px 10px;
       text-decoration: none;
-      color: var(--primary-color);
+      color: #000;
       font-size: 16px;
-      font-weight: 700;
+      font-weight: 400;
       .icon {
         display: flex;
         align-items: center;
         svg {
-          width: 30px;
-          height: 30px;
+          width: 22px;
+          height: 22px;
         }
       }
       .txt {
         display: inline-block;
         margin-left: 10px;
+        font-size: 14px;
       }
     }
-  }
-  .maps {
-    margin-bottom: 140px;
   }
   @media(max-width: 756px) {
     .headline {
@@ -1057,6 +1077,12 @@ html:not(:has(#main)) header + div {
     .maps {
       margin-bottom: 80px;
     }
+  }
+  @media(max-width: 756px) {
+    margin-bottom: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: calc(100vw - 30px);
   }
 }
 
