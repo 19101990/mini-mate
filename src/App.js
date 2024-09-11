@@ -11,7 +11,7 @@ import './App.css'
 
 
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
   Navigate
@@ -22,7 +22,7 @@ import {
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollTop />
       <div>
         <Header />
@@ -37,7 +37,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;
