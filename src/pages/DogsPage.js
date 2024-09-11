@@ -4,7 +4,7 @@ import React from 'react';
 export default function DogsPage() {
     return (
         <div className='dogs_page'>
-            <h2 className="headline">Unsere Mini Mates</h2>
+            <h2 className="headline">Unsere Minimates</h2>
             <div className="dogs_page_wrapper">
                 <div className="dog_card__wrapper">
                     <div class="dog_card">

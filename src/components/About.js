@@ -4,7 +4,7 @@ import React from 'react';
 export default function About() {
   return (
     <div className="about">
-      <h2 className="headline">About us</h2>
+      <h2 className="headline">The Cold Well's Minimates</h2>
       <div className="text_full">
         <p>Willkommen bei unserer kleinen Toy Australian Shepherd Hobbyzucht im malerischen Harzer Vorland! Mit Leidenschaft züchten wir die kleinste Version des Australian Shepherds und achten dabei stets darauf optisch dem Standard zu entsprechen. Trotz der gewünschten Größe von unter 35 cm, streben wir ein harmonisches Körperbild mit ausgewogenen Proportionen, einem markanten Kopf und kräftigen Knochenbau an. Unser Ziel ist es, gut gelaunte und umgängliche Familienhunde zu schaffen, die sich durch die enge Bindung zu ihren Menschen auszeichnen.</p>
       </div>

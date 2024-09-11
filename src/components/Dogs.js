@@ -3,7 +3,7 @@ import React from 'react';
 export default function Dogs() {
     return (
         <div className="dogs">
-            <h2 className="headline">Meet our dogs!</h2>
+            <h2 className="headline">Unsere Minimates</h2>
             <div className="dogs_wrapper">
 
                 <div className="dog">

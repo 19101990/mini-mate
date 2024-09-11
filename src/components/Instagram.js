@@ -6,7 +6,7 @@ export default function Instagram() {
 
     return (
         <div className="instagram">
-            <a href="https://instagram.com/simpli.us_lfm">For recent updates follow our instagram!<span><GoArrowRight /></span></a>
+            <a href="https://instagram.com/thecoldwell_life">Folgt uns auf Instagram für neueste Updates!<span><GoArrowRight /></span></a>
         </div>
     );
 }

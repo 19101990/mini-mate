@@ -43,7 +43,7 @@ export default function Header() {
     <header id="header" className="header__wrapper">
       <div className="logo">
         <Link to={`/`}>
-          <h2 className=''>Mini Mate</h2>
+          <h2 className=''>Minimate</h2>
         </Link>
       </div>
       {isMobile ? (
@@ -71,7 +71,7 @@ export default function Header() {
               </li>
             </ul>
             <div className='header_links'>
-              <a href="https://instagram.com/simpli.us_lfm"><span className="icon"><FaInstagram /></span></a>
+              <a href="https://instagram.com/thecoldwell_life"><span className="icon"><FaInstagram /></span></a>
               <a href="tel:0000000000"><span className="icon"><LuPhone /></span></a>
               <a href="mailto:mail@mail.com"><span className="icon"><LuMail /></span></a>
             </div>
