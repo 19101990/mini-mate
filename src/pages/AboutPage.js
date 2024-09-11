@@ -5,7 +5,7 @@ export default function AboutPage() {
 
     return (
         <div id="about_page">
-            <h2 className="headline">About us</h2>
+            <h2 className="headline">Über uns</h2>
             <div className="about_us">
                 <p className="about_title">Wer The Cold Well ist? Das sind wir! Amanda und Ewa vom Hof im Kalten Brunnen</p>
                 <p className="about_name">Amanda:</p>
