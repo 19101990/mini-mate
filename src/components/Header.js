@@ -55,19 +55,19 @@ export default function Header() {
                 <Link to={`/`} onClick={() => setOpen(false)}>Home</Link>
               </li>
               <li className=''>
-                <Link to={`/dogs`} onClick={() => setOpen(false)}>Our Dogs</Link>
+                <Link to={`/dogs`} onClick={() => setOpen(false)}>Unsere Hunde</Link>
               </li>
               <li className=''>
-                <Link to={`/puppies`} onClick={() => setOpen(false)}>Puppies</Link>
+                <Link to={`/puppies`} onClick={() => setOpen(false)}>Welpen</Link>
               </li>
               {/* <li className=''>
                 <Link to={`/gallery`} onClick={() => setOpen(false)}>Gallery</Link>
               </li> */}
               <li className=''>
-                <Link to={`/about`} onClick={() => setOpen(false)}>About Us</Link>
+                <Link to={`/about`} onClick={() => setOpen(false)}>Über uns</Link>
               </li>
               <li className=''>
-                <Link to={`/contact`} onClick={() => setOpen(false)}>Contact</Link>
+                <Link to={`/contact`} onClick={() => setOpen(false)}>Kontakt</Link>
               </li>
             </ul>
             <div className='header_links'>
@@ -83,19 +83,19 @@ export default function Header() {
               <Link to={`/`}>Home</Link>
             </li>
             <li className=''>
-              <Link to={`/dogs`}>Our Dogs</Link>
+              <Link to={`/dogs`}>Unsere Hunde</Link>
             </li>
             <li className=''>
-              <Link to={`/puppies`}>Puppies</Link>
+              <Link to={`/puppies`}>Welpen</Link>
             </li>
             {/* <li className=''>
               <Link to={`/gallery`}>Gallery</Link>
             </li> */}
             <li className=''>
-              <Link to={`/about`}>About Us</Link>
+              <Link to={`/about`}>Über uns</Link>
             </li>
             <li className=''>
-              <Link to={`/contact`}>Contact</Link>
+              <Link to={`/contact`}>Kontakt</Link>
             </li>
           </ul>
         )}

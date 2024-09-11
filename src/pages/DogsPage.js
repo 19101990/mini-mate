@@ -21,13 +21,13 @@ export default function DogsPage() {
                                     <li>Größe: <b>31,5 cm</b></li>
                                     <li>Gewicht: <b>7 kg</b></li>
                                     <li>Gentests: <b>full panel clear by parentage, NAD negativ</b></li>
-                                    <li>M Lokus</li>
+                                    <li>M Lokus: <b>M(267)/m</b></li>
                                 </ul>
                             </div>
                             <div>
                                 <p>Maple war unsere erste Toy Australian Shepherd Hündin und verkörpert all das, weshalb wir uns so in diese Rasse verliebt und ihre Entwicklung mit unserem Zuchtprogramm begleiten möchten.</p>
-                                <p>Sie stammt aus einer renommierten Showlinie aus den USA und hat einige herausragende Elite Champion in ihrem Pedigree.</p>
-                                <p>Maple ist eine sehr liebevolle und sanftmütige Hündin mit einem stark ausgeprägten „will to please“. Rassetypisch ist sie Fremden gegenüber verhalten, geht mit ihrem Menschen jedoch eine sehr enge Bindung ein.</p>
+                                <p>Sie stammt aus einer renommierten Showlinie aus den USA und hat einige herausragende Elite Champion in ihrem Pedigree. </p>
+                                <p>Maple ist eine sehr liebevolle und sanftmütige Hündin mit einem stark ausgeprägten „will to please“. Rassetypisch ist sie Fremden gegenüber verhalten, geht mit ihrem Menschen jedoch eine sehr enge Bindung ein. </p>
                             </div>
                         </div>
                     </div>
@@ -51,13 +51,13 @@ export default function DogsPage() {
                                     <li>Größe: <b>32 cm</b></li>
                                     <li>Gewicht: 5 kg</li>
                                     <li>Gentests: <b>full panel clear by parentage, NAD negativ</b></li>
-                                    <li>M Lokus</li>
-                                    <li>(Cosmo steht einer kleinen Anzahl ausgewählter Hündinnen als Deckrüde zur Verfügung.)</li>
+                                    <li>M Lokus: <b>Mc(222)/m</b></li>
+                                    <li>(Cosmo steht ab 2025 einer kleinen Anzahl ausgewählter Hündinnen als Deckrüde zur Verfügung.)</li>
                                 </ul>
                             </div>
                             <div>
                                 <p>Wir waren lange auf der Suche nach ihm: Cosmo vereint alles was wir uns in unserem zweiten Aussie gewünscht haben.</p>
-                                <p>Als Nachfahre des mehrfachen Champions Dragon Slayer, bringt er nicht nur den Körperbau eines Standard Australian Shepherds mit, sondern auch das bemerkenswerte Haarkleid. Er ist red-factored, kann also auch Red Merle/Tri Welpen zeugen und stammt aus einer starken BET-Linie (Blue Eyed Tri). Seine liebenswerten braunen Augen machen ihn jedoch nur noch schöner.</p>
+                                <p>Als Nachfahre des mehrfachen Champions Dragon Slayer, bringt er nicht nur den Körperbau eines Standard Australian Shepherds mit, sondern auch das bemerkenswerte Haarkleid. Er ist red-factored, und stammt aus einer starken BET-Linie (Blue Eyed Tri). Seine liebenswerten braunen Augen machen ihn jedoch nur noch schöner.</p>
                                 <p>Cosmo ist ein unheimlich freundlicher und verspielter Rüde, der stets gut gelaunt auf der Suche nach Schabernack ist. Trotz einer guten Portion Arbeitswille und Motivation mit seinem Besitzer zu arbeiten, hat er eine sehr sanfte und sensible Seite.</p>
                             </div>
                         </div>

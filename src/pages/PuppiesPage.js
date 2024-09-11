@@ -5,8 +5,8 @@ export default function PuppiesPage() {
     return (
         <div className='puppies_page'>
             <h2 className="headline">Puppies</h2>
-            <h4 className="headline__small">Oktober 2024</h4>
-            <div className="puppies_page_wrapper">
+            {/* <h4 className="headline__small">Oktober 2024</h4> */}
+            {/* <div className="puppies_page_wrapper">
                 <div className="puppy_card">
                     <div className="puppy_image"><img loading="lazy" src="gfx/g15.jpg" alt=""></img></div>
                     <div className="puppy_description">
@@ -27,15 +27,19 @@ export default function PuppiesPage() {
                         </div>
                     </div>
                 </div>
+            </div> */}
+            <div className="puppies_page__news">
+                <p>Wir erwarten Welpen im Oktober!</p>
             </div>
             <div className="puppies_info__price">
                 <h3>Preis</h3>
-                <p>Die große Preisfrage. Ich habe Verständnis dafür, dass ein Interessent wissen möchte, worauf er sich bei einer Bewerbung für einen Welpen finanziell einstellen muss. Ich habe oft erlebt, dass Interessenten nicht den Eindruck erwecken wollen, dass ihnen das Geld wichtiger ist als das Tier. Der Züchter wiederum möchte keine potenziellen Hundeliebhaber verprellen, bevor diese sich von dem Zuchtprogramm einen unvoreingenommenen Eindruck verschaffen konnten. Beide Seiten sind nachvollziehbar, doch weder dem Züchter, noch dem Interessenten ist damit geholfen um diese Frage herumzutanzen.</p>
-                <p>Ich lege viel Wert auf Offenheit und Ehrlichkeit und erwarte das auch von den zukünftigen Besitzern unserer Welpen, daher verfolge ich einen anderen Ansatz und gestalte die Preise und Preisfindung transparent.</p>
-                <p>Tiere auszubeuten um Gewinn zu erzielen, könnte nicht weiter von unseren Zielen entfernt sein. Wir haben und aus Leidenschaft und Überzeugung für die Zucht dieser Rasse entschieden und möchten mit unserem Zuchtprogramm dazu beitragen einen gesunden Genpool dieser noch sehr seltenen Rasse in Deutschland und dem europäischen Ausland aufzubauen. Ich denke bei genauerem Nachdenken ist auch jedem klar, dass die Versorgung der Zuchthunde, die genetische und medizinische Auswertung, das Futter, die tierärztlichen Untersuchungen der trächtigen Hündin und ihrer Welpen, die Ausstattung usw. einen enormen Kostenfaktor ergeben, die bei einer typisch kleinen Wurfgröße von 3-4 Welpen, maximal gedeckt werden können.</p>
-                <p>Unsere Hunde sollen ihren Besitzern Freude bereiten und Familienmitglieder sein, daher geben wir sie als reine Haustiere ab. Vertraglich wird die Pflicht zur Kastration bis zum 3. Lebensjahr festgehalten.</p>
+                <p>Die große Preisfrage. Wir haben Verständnis dafür, dass ein Interessent wissen möchte, worauf er sich bei der Bewerbung für einen Welpen finanziell einstellen muss. Wir haben oft erlebt, dass Interessenten nicht den Eindruck erwecken möchten, dass das Geld im Vordergrund steht. Der Züchter wiederum möchte keinen Interessenten und potentiell liebevolles Zuhause für einen Welpen verlieren, bevor diese sich von dem Zuchtprogramm einen unvoreingenommenen Eindruck verschaffen konnten. Beide Seiten sind nachvollziehbar, doch weder dem Züchter, noch dem Interessenten ist damit geholfen um diese Frage herumzutanzen.</p>
+                <p>Wir legen viel Wert auf Offenheit und Ehrlichkeit und erwarten das auch von den zukünftigen Besitzern unserer Welpen, daher verfolgen wir einen anderen Ansatz und gestalten die Preise und Preisfindung transparent.</p>
+                <p><em>Dennoch ein paar Worte, die von Herzen kommen:</em></p>
+                <p><em>Tiere auszubeuten um Gewinn zu erzielen, könnte nicht weiter von unseren Zielen entfernt sein. Wir haben uns aus Leidenschaft und Überzeugung für die Zucht dieser Rasse entschieden und möchten mit unserem Zuchtprogramm dazu beitragen einen gesunden Genpool dieser noch sehr seltenen Rasse in Deutschland und dem europäischen Ausland aufzubauen. Ich denke bei genauerem Nachdenken ist auch jedem klar, dass die Versorgung der Zuchthunde, die genetische und medizinische Auswertung, das Futter, die tierärztlichen Untersuchungen der trächtigen Hündin und ihrer Welpen, Microchips, Impfungen, Entwurmungen, die Ausstattung usw. einen enormen Kostenfaktor ergeben, der bei einer typisch kleinen Wurfgröße von 3-4 Welpen, nur mit Glück noch gedeckt werden kann. Die Tage und Nächte, die wir uns um die neugeborenen Welpen sorgen und die Zeit, die wir in die liebevolle Aufzucht und Sozialisierung der Welpen stecken, finden in der Preisfindung schon gar Beachtung mehr.</em></p>
+                <p><em>Die Preise für unsere Welpen liegen zwischen ca. 1.800 und 2.500 €. Ab der 5. Woche wird jeder Welpe individuell nach Erscheinungsbild und Wesensmerkmalen bewertet und der Preis festgelegt.</em></p>
+                <p>Unsere Hunde sollen ihren Besitzern ihr ganzes Leben lang Freude bereiten und Familienmitglieder sein. Um sie vor unseriöser Vermehrung zu schützen, geben wir sie als reine Haustiere, ohne Zuchterlaubnis, ab. </p>
                 <p>Wir behalten uns vor in Ausnahmefällen einzelne Tiere in Zuchtqualität an kleine ausgewählte Zuchtprogramme abzugeben. </p>
-                <p>Der Preis für jeden Welpen wird ab der 5. Woche individuell nach Erscheinungsbild und Wesensmerkmale bestimmt und startet bei 2.000 €.</p>
             </div>
         </div>
     );

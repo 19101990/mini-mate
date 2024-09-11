@@ -15,9 +15,9 @@ export default function Contact() {
                 <div className="contact_wrapper">
                     <div className='contact_links'>
                         <span className="contact_information">Da wir den Tag in der Regel auf dem Hof und mit unseren Tieren verbringen, sind wir telefonisch nicht erreichbar. Schickt uns gerne eine Nachricht über WhatsApp oder per Mail, wir melden uns zurück!</span>
-                        <a href="https://instagram.com/simpli.us_lfm"><span className="icon"><FaInstagram /><span className="txt">Check our instagram!</span></span></a>
-                        <a href="https://wa.me/0000000000"><span className="icon"><FaWhatsapp /><span className="txt">WhatsApp</span></span></a>
-                        <a href="mailto:mail@mail.com"><span className="icon"><LuMail /></span><span className="txt">mail@mail.com</span></a>
+                        <a href="https://instagram.com/thecoldwell_life"><span className="icon"><FaInstagram /><span className="txt">Check our instagram!</span></span></a>
+                        <a href="https://wa.me/015226156940"><span className="icon"><FaWhatsapp /><span className="txt">WhatsApp</span></span></a>
+                        <a href="mailto:de-bruyn-amanda@web.de"><span className="icon"><LuMail /></span><span className="txt">de-bruyn-amanda@web.de</span></a>
                         <span className="contact_link"><span className="icon"><SlLocationPin /></span><span className="txt">Goslar Landkreis, Niedersachsen</span></span>
                     </div>
                     <div className="maps">
