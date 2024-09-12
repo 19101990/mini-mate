@@ -9,7 +9,7 @@ export default function About() {
         <p>Willkommen bei unserer kleinen Toy Australian Shepherd Hobbyzucht im malerischen Harzer Vorland! Mit Leidenschaft züchten wir die kleinste Version des Australian Shepherds und achten dabei stets darauf optisch dem Standard zu entsprechen. Trotz der gewünschten Größe von unter 35 cm, streben wir ein harmonisches Körperbild mit ausgewogenen Proportionen, einem markanten Kopf und kräftigen Knochenbau an. Unser Ziel ist es, gut gelaunte und umgängliche Familienhunde zu schaffen, die sich durch die enge Bindung zu ihren Menschen auszeichnen.</p>
       </div>
       <div className="text_right">
-        <img loading="lazy" src="gfx/g8.jpg" alt="">
+        <img loading="lazy" src="gfx/gfx_11.webp" alt="">
         </img>
         <div>
           <p>Unsere Zucht konzentriert sich jedoch nicht nur auf das äußere Erscheinungsbild, sondern insbesondere auf die Wesensmerkmale, die einen idealen Begleiter ausmachen. Leichtführigkeit und ein ausgeprägter "will to please" stehen bei uns an oberster Stelle. Wir legen großen Wert darauf, Hunde zu züchten, die sich problemlos in den Alltag integrieren lassen, leicht trainierbar sind und mit Begeisterung ihren Besitzern gefallen möchten.</p>

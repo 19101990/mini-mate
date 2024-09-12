@@ -8,7 +8,7 @@ export default function DogsPage() {
             <div className="dogs_page_wrapper">
                 <div className="dog_card__wrapper">
                     <div class="dog_card">
-                        <div className="dog_image"><img loading="lazy" src="gfx/g7.jpg" alt=""></img></div>
+                        <div className="dog_image"><img loading="lazy" src="gfx/gfx_4.webp" alt=""></img></div>
                         <div className="dog_description">
                             <h4 className="dog_name">Cross L’s Foggy Maple Forest</h4>
                             <small>(USA Import)</small>
@@ -38,7 +38,7 @@ export default function DogsPage() {
                 </div>
                 <div className="dog_card__wrapper">
                     <div class="dog_card">
-                        <div className="dog_image"><img loading="lazy" src="gfx/dogs_main_2.webp" alt=""></img></div>
+                        <div className="dog_image"><img loading="lazy" src="gfx/gfx_3.webp" alt=""></img></div>
                         <div className="dog_description">
                             <h4 className="dog_name">Enloe‘s Cosmic Eclipse</h4>
                             <small>(USA Import)</small>
@@ -49,7 +49,7 @@ export default function DogsPage() {
                                     <li>Farbe: <b>Black Tri</b></li>
                                     <li>Augen: <b>Braun/Braun</b></li>
                                     <li>Größe: <b>32 cm</b></li>
-                                    <li>Gewicht: 5 kg</li>
+                                    <li>Gewicht: <b>5 kg</b></li>
                                     <li>Gentests: <b>full panel clear by parentage, NAD negativ</b></li>
                                     <li>M Lokus: <b>Mc(222)/m</b></li>
                                     <li>(Cosmo steht ab 2025 einer kleinen Anzahl ausgewählter Hündinnen als Deckrüde zur Verfügung.)</li>
