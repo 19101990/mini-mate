@@ -8,7 +8,7 @@ export default function DogsPage() {
             <div className="dogs_page_wrapper">
                 <div className="dog_card__wrapper">
                     <div class="dog_card">
-                        <div className="dog_image"><img loading="lazy" src="gfx/maple.webp" alt=""></img></div>
+                        <div className="dog_image"><img loading="lazy" src="gfx/maple_uh.jpg" alt=""></img></div>
                         <div className="dog_description">
                             <h4 className="dog_name">Cross L’s Foggy Maple Forest</h4>
                             <small>(USA Import)</small>
@@ -38,7 +38,7 @@ export default function DogsPage() {
                 </div>
                 <div className="dog_card__wrapper">
                     <div class="dog_card">
-                        <div className="dog_image"><img loading="lazy" src="gfx/cosmo.webp" alt=""></img></div>
+                        <div className="dog_image"><img loading="lazy" src="gfx/cosmo_uh.jpg" alt=""></img></div>
                         <div className="dog_description">
                             <h4 className="dog_name">Enloe‘s Cosmic Eclipse</h4>
                             <small>(USA Import)</small>
