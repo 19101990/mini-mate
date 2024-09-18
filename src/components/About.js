@@ -14,6 +14,7 @@ export default function About() {
         <div>
           <p>Wir konzentrieren uns jedoch nicht nur auf das äußere Erscheinungsbild, sondern insbesondere auf die Wesensmerkmale, die einen idealen Begleiter ausmachen. Leichtführigkeit und ein ausgeprägter "Will to please" stehen bei uns an oberster Stelle. Unsere Hunde sollen sich problemlos in den Alltag integrieren lassen und leicht trainierbar sein.</p>
           <p>Unsere Philosophie basiert auf dem Streben nach gesunden und langlebigen Tieren. Wir setzen auf die sorgfältige Auswahl der Zuchttiere, regelmäßige tierärztliche Untersuchungen und eine liebevolle Aufzucht in familiärer Umgebung. Jeder Welpe erhält bei uns die bestmögliche Pflege und Sozialisierung, um sicherzustellen, dass er sich optimal in seiner zukünftigen Familie entwickelt.</p>
+          <img loading="lazy" src="gfx/dogs_1.webp" class="--mobile" alt="" />
         </div>
       </div>
       <div className="text_full">
