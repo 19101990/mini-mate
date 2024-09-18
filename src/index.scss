@@ -961,8 +961,10 @@ html:not(:has(#main)) header + div {
   }
 
   .puppies_page__news {
-    text-align: center;
-    font-size: 30px;
+    p.subtitle {
+      font-size: 30px;
+      text-align: center;
+    }
     .puppies_parents__wrapper {
       display: flex;
       justify-content: center;

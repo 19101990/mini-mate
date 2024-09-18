@@ -31,7 +31,7 @@ export default function PuppiesPage() {
                 </div>
             </div> */}
             <div className="puppies_page__news">
-                <p>Wir erwarten Welpen im Oktober!</p>
+                <p class="subtitle">Wir erwarten Welpen im Oktober!</p>
                 <div className="puppies_parents__wrapper">
                     <div className="puppies_parent"><img loading="lazy" src="gfx/gfx_6.webp" alt=""></img></div>
                     <div className="puppies_separator"><LiaHeartSolid /></div>
