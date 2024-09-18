@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaInstagram } from "react-icons/fa";
 import { LuMail } from "react-icons/lu";
-import { LuPhone } from "react-icons/lu";
+import { FaWhatsapp } from "react-icons/fa6";
 import CookieConsent from "react-cookie-consent";
 
 export default function Footer() {
@@ -17,8 +17,8 @@ export default function Footer() {
         </div>
         <div className='footer_links'>
           <a href="https://instagram.com/thecoldwell_life"><span className="icon"><FaInstagram /></span></a>
-          <a href="tel:0000000000"><span className="icon"><LuPhone /></span></a>
-          <a href="mailto:mail@mail.com"><span className="icon"><LuMail /></span></a>
+          <a href="https://wa.me/004915226156940"><span className="icon"><FaWhatsapp /></span></a>
+          <a href="mailto:de-bruyn-amanda@web.de"><span className="icon"><LuMail /></span></a>
         </div>
 
       </div>

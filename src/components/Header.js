@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Divide as Hamburger } from "hamburger-react";
 import { FaInstagram } from "react-icons/fa";
 import { LuMail } from "react-icons/lu";
-import { LuPhone } from "react-icons/lu";
+import { FaWhatsapp } from "react-icons/fa6";
 
 export default function Header() {
   const [scroll, setScroll] = useState(false);
@@ -72,8 +72,8 @@ export default function Header() {
             </ul>
             <div className='header_links'>
               <a href="https://instagram.com/thecoldwell_life"><span className="icon"><FaInstagram /></span></a>
-              <a href="tel:0000000000"><span className="icon"><LuPhone /></span></a>
-              <a href="mailto:mail@mail.com"><span className="icon"><LuMail /></span></a>
+              <a href="https://wa.me/004915226156940"><span className="icon"><FaWhatsapp /></span></a>
+              <a href="mailto:de-bruyn-amanda@web.de"><span className="icon"><LuMail /></span></a>
             </div>
           </div>
         </div>
