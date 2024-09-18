@@ -42,20 +42,18 @@ export default function AboutPage() {
                     </div>
                 </div>
                 <div className="about_story">
+                    <div className="story_img">
+                        <img loading="lazy" src="gfx/gfx_2.webp" alt="" />
+                    </div>
                     <div className="story_text">
                         <h5>Hund, Katze, Maus?</h5>
                         <p>In meiner beruflichen Laufbahn habe ich viele Ortswechsel hinnehmen müssen. Karlsson sollte während all meiner Umzüge bei meiner Familie bleiben und den Hof bewachen. Mir selbst wieder ein Haustier anzuschaffen kam auch lange nicht in Frage, da ich ihnen aus beruflichen Gründen zeitlich nicht hätte gerecht werden können. Nach jedem einzelnen Umzug in der Vergangenheit habe ich es jedoch nie lange ohne Tiere ausgehalten und habe entweder private Pflegebeteiligungen übernommen oder in den lokalen Tierheimen ehrenamtlich unterstützt. 2014 war es dann aber soweit und ich konnte mir endlich den Wunsch erfüllen: Ein kleiner grauer Kater aus dem Nachbardorf sollte es werden. Nachdem ich bereits zugesagt hatte den Kleinen aufzunehmen, hörte ich von einem Fall des Animal Hoarding ganz in der Nähe. Ich wollte eigentlich nur schauen, ob ich bei der Auflösung helfen kann, aber die wunderschöne Glückskatze konnte ich dort nicht zurücklassen. Die Gesellschaft wäre sicherlich auch schön für die Zwei, dachte ich mir. Als ich sie in meinen Transporter setzen wollte, war dieser jedoch schon besetzt. Ihre Schwester, eine graue Katze mit vereinzelten roten Flecken, ließ sich nicht überreden dort zu bleiben. Also waren es am Ende gleich drei Katzen auf einen Streich...</p>
                         <p>Aus meinen kleinen scheuen Stubentigern sind über die letzten Jahre richtige Freigänger geworden und damit scheinen sie sehr zufrieden zu sein. Es wird nie langweilig, denn auf einem alten Hof wie unserem, gibt es überall kleine Nischen und Schlupflöcher, die für durchreisende kleine Nager auf der Suche nach Futter, einen willkommenen Unterschlupf darstellen. Unser Schwesterpaar Mira und Nola und Hofkater Oskar, sorgen aber zuverlässig dafür, dass sich eben diese kleinen ungebetenen Gäste nicht zu wohl fühlen und ihre Familienplanung anderen Orts verfolgen.</p>
                         <p>Auch wenn wir die kleinen Tierchen eigentlich ganz putzig finden, können sie das Futter und Wasser unserer Tiere verunreinigen und Krankheiten übertragen. Wir haben mit der Anschaffung unserer Haus- und Hoftiere die Verantwortung für sie übernommen und dieser Gefahr möchten wir sie nicht aussetzen.</p>
                     </div>
-                    <div className="story_img">
-                        <img loading="lazy" src="gfx/gfx_2.webp" alt="" />
-                    </div>
+
                 </div>
                 <div className="about_story">
-                    <div className="story_img">
-                        <img loading="lazy" src="gfx/gfx_13.webp" alt="" />
-                    </div>
                     <div className="story_text">
                         <h5>Wie wir zu den Enten kamen</h5>
                         <p>Gelegentlich, wenn wir mit den Hunden spazieren gehen, schließen sich unsere Katzen dem Spaziergang an. Und da das Gras auf der anderen Seite des Zauns ja bekanntlich immer besser schmeckt, verirrt sich auch manchmal ein Huhn mit auf den Weg. Dass wir so, als lustige Truppe, ein eher wunderliches Bild abgeben, hat sich inzwischen herumgesprochen und auch manchen Besucher und Nachbarn angelockt. Einer dieser Nachbarn stand eines Tages mit einem sorgfältig in ein Handtuch gebetteten Ei in der Hand vor uns.</p>
@@ -63,6 +61,9 @@ export default function AboutPage() {
                         <p>Entenküken haben als Einzelgänger kaum Überlebenschancen und da das Ei erst kurze Zeit angebrütet sein konnte, habe ich ihm eine Chance gegeben und es mit einer Handvoll gekaufter Bruteier von Flugenten in unseren Notfallbrüter gelegt. Die Wildente sollte ausgewildert werden und die Hausenten im Anschluss neue Besitzer finden. Leider hat das Fundei in dieser sensiblen Phase der Entwicklung einen zu großen Schaden erlitten, sodass es nach einigen Tagen abgestorben ist. Aus drei der gekauften Bruteier sind allerdings kurze Zeit später quicklebendige Küken geschlüpft, die uns in den folgenden Wochen gut auf Trab gehalten haben. Entenküken prägen sich nach dem Schlupf auf das erste Lebewesen, das sie zu sehen bekommen. Ohne abendliche Kuscheleinheiten und Zudecken zur Schlafenszeit, hätten wir also vor lauter Geschrei wohl kein Auge zu bekommen...</p>
                         <p>Die drei sind inzwischen erwachsen geworden und haben sich aus dem Entenstall verabschiedet, um in dem Bach zu leben, der an unsere Obstwiese angrenzt. Sie hatten sich zwischenzeitlich mit einer Gruppe junger Stockenten angefreundet, kommen uns aber mehrfach täglich besuchen, plündern das Hühnerfutter oder watscheln über die Wiese auf der Suche nach Schnecken.</p>
                         <p>Auch wenn sie nicht geplant waren, möchten wir sie nicht mehr missen.</p>
+                    </div>
+                    <div className="story_img">
+                        <img loading="lazy" src="gfx/gfx_13.webp" alt="" />
                     </div>
                 </div>
             </div>
