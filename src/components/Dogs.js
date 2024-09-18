@@ -13,7 +13,7 @@ export default function Dogs() {
                         <div className="dog_name">Maple</div>
                     </div>
 
-                    <div className="dog_description">Maple war unsere erste Toy Australian Shepherd Hündin und verkörpert all das, weshalb wir uns so in diese Rasse verliebt und ihre Entwicklung mit unserem Zuchtprogramm begleiten möchten. Sie stammt aus einer renomierten Showlinie aus den USA und hat einige herausragende Elite Champion in ihrem Pedigree.</div>
+                    <div className="dog_description">Maple war unsere erste Toy Australian Shepherd Hündin und verkörpert all das, weshalb wir uns so in diese Rasse verliebt haben und ihre Entwicklung mit unserem Zuchtprogramm begleiten möchten. Sie stammt aus einer renommierten Showlinie aus den USA und hat einige herausragende Elite Champions in ihrem Pedigree. </div>
                 </div>
 
                 <div className="dog">
@@ -22,7 +22,7 @@ export default function Dogs() {
                         </img>
                         <div className="dog_name">Cosmo</div>
                     </div>
-                    <div className="dog_description">Als Nachfahre des mehrfachen Champions Dragon Slayer, bringt er nicht nur den Körperbau eines Standard Australian Shepherds mit, sondern auch das bemerkenswerte Haarkleid. Er ist red-factored und stammt aus einer starken BET-Linie (Blue Eyed Tri). Seine liebenswerten braunen Augen machen ihn jedoch nur noch schöner.</div>
+                    <div className="dog_description">Cosmo haben wir aus Texas zu uns geholt. Er stammt aus einer sehr erfolgreichen Zuchtlinie für kleine Toy Australian Shepherds und wir sind sehr dankbar, dass wir ihn in unser Zuchtprogramm aufnehmen durften. Ein vielversprechender kleiner Charmeur – stets gut gelaunt und immer auf der Suche nach Blödsinn.</div>
                 </div>
 
             </div>

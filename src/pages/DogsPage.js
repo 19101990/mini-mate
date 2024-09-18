@@ -25,9 +25,8 @@ export default function DogsPage() {
                                 </ul>
                             </div>
                             <div>
-                                <p>Maple war unsere erste Toy Australian Shepherd Hündin und verkörpert all das, weshalb wir uns so in diese Rasse verliebt und ihre Entwicklung mit unserem Zuchtprogramm begleiten möchten.</p>
-                                <p>Sie stammt aus einer renommierten Showlinie aus den USA und hat einige herausragende Elite Champion in ihrem Pedigree. </p>
-                                <p>Maple ist eine sehr liebevolle und sanftmütige Hündin mit einem stark ausgeprägten „will to please“. Rassetypisch ist sie Fremden gegenüber verhalten, geht mit ihrem Menschen jedoch eine sehr enge Bindung ein. </p>
+                                <p>Maple ist unser kleiner Schatten. Sie ist eine sehr liebevolle und sanftmütige Hündin, die es liebt, Zeit mit ihren Menschen zu verbringen. Mit einem stark ausgeprägten „Will to please“ ausgestattet, ist sie die perfekte Partnerin für uns.</p>
+                                <p>Sie bringt diese hervorragenden Wesensmerkmale, einen kräftigen Körperbau, markanten Kopf und eisblaue Augen mit in unser Zuchtprogramm. Die Champions in ihrem Pedigree sprechen für sich.</p>
                             </div>
                         </div>
                     </div>
@@ -56,9 +55,9 @@ export default function DogsPage() {
                                 </ul>
                             </div>
                             <div>
-                                <p>Wir waren lange auf der Suche nach ihm: Cosmo vereint alles was wir uns in unserem zweiten Aussie gewünscht haben.</p>
-                                <p>Als Nachfahre des mehrfachen Champions Dragon Slayer, bringt er nicht nur den Körperbau eines Standard Australian Shepherds mit, sondern auch das bemerkenswerte Haarkleid. Er ist red-factored, und stammt aus einer starken BET-Linie (Blue Eyed Tri). Seine liebenswerten braunen Augen machen ihn jedoch nur noch schöner.</p>
-                                <p>Cosmo ist ein unheimlich freundlicher und verspielter Rüde, der stets gut gelaunt auf der Suche nach Schabernack ist. Trotz einer guten Portion Arbeitswille und Motivation mit seinem Besitzer zu arbeiten, hat er eine sehr sanfte und sensible Seite.</p>
+                                <p>Wir waren lange auf der Suche nach ihm: Cosmo vereint alles, was wir uns in unserem zweiten Aussie gewünscht haben.</p>
+                                <p>Als Nachfahre des mehrfachen Champions Dragon Slayer, bringt er im Kleinformat nicht nur den Körperbau eines Standard Australian Shepherds mit, sondern auch das bemerkenswerte Haarkleid. Er ist red-factored und stammt aus einer starken BET-Linie (Blue Eyed Tri). Seine liebenswerten braunen Augen machen ihn jedoch nur noch schöner.</p>
+                                <p>Cosmo ist ein unheimlich freundlicher und verspielter Rüde, der stets gut gelaunt auf der Suche nach Schabernack ist. Trotz einer guten Portion Arbeitswillen und Motivation, mit seinem Besitzer zu arbeiten, hat er eine sehr sanfte und sensible Seite.</p>
                             </div>
                         </div>
                     </div>
