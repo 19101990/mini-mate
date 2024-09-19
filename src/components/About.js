@@ -6,7 +6,7 @@ export default function About() {
     <div className="about">
       <h2 className="headline">The Cold Well's Minimates</h2>
       <div className="text_full">
-        <p>Willkommen bei unserer kleinen Toy Australian Shepherd Hobbyzucht im malerischen Harzer Vorland! Mit Leidenschaft züchten wir die kleinste Version des Australian Shepherds und achten, trotz der gewünschten Größe von unter 35 cm ,stets auf ein harmonisches Körperbild mit ausgewogenen Proportionen und kräftigem Körperbau. Unser Ziel ist es, gut gelaunte und umgängliche Familienhunde zu schaffen, die sich durch die enge Bindung zu ihren Menschen auszeichnen.</p>
+        <p>Willkommen bei unserer kleinen Toy Australian Shepherd Hobbyzucht im malerischen Harzer Vorland! Mit Leidenschaft züchten wir die kleinste Version des Australian Shepherds und achten, trotz der gewünschten Größe von unter 35 cm, stets auf ein harmonisches Körperbild mit ausgewogenen Proportionen und kräftigem Körperbau. Unser Ziel ist es, gut gelaunte und umgängliche Familienhunde zu schaffen, die sich durch die enge Bindung zu ihren Menschen auszeichnen.</p>
       </div>
       <div className="text_right">
         <img loading="lazy" src="gfx/gfx_11.webp" alt="">

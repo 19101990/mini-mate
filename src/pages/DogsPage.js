@@ -20,7 +20,7 @@ export default function DogsPage() {
                                     <li>Augen: <b>Blau/Blau</b></li>
                                     <li>Größe: <b>31,5 cm</b></li>
                                     <li>Gewicht: <b>7 kg</b></li>
-                                    <li>Gentests: <b>full panel clear by parentage, NAD negativ</b></li>
+                                    <li>Gentests: <b>Frei von allen rassetypischen Erbkrankheiten, inklusive NAD</b></li>
                                     <li>M Lokus: <b>M(267)/m</b></li>
                                 </ul>
                             </div>
@@ -49,9 +49,9 @@ export default function DogsPage() {
                                     <li>Augen: <b>Braun/Braun</b></li>
                                     <li>Größe: <b>32 cm</b></li>
                                     <li>Gewicht: <b>5 kg</b></li>
-                                    <li>Gentests: <b>full panel clear by parentage, NAD negativ</b></li>
+                                    <li>Gentests: <b>Frei von allen rassetypischen Erbkrankheiten, inklusive NAD</b></li>
                                     <li>M Lokus: <b>Mc(222)/m</b></li>
-                                    <li>(Cosmo steht ab 2025 einer kleinen Anzahl ausgewählter Hündinnen als Deckrüde zur Verfügung.)</li>
+                                    <li>Cosmo steht ab 2025 einer kleinen Anzahl ausgewählter Hündinnen als Deckrüde zur Verfügung.</li>
                                 </ul>
                             </div>
                             <div>
