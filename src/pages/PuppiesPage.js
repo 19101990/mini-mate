@@ -37,9 +37,9 @@ export default function PuppiesPage() {
                     <div className="puppies_separator"><LiaHeartSolid /></div>
                     <div className="puppies_parent"><img loading="lazy" src="gfx/gfx_5.webp" alt=""></img></div>
                 </div>
-                <p>Die idyllische Umgebung bietet den idealen Rahmen für die Aufzucht unserer Toy Australian Shepherds. Die Hunde haben hier ausreichend Platz, um sich zu entfalten, die Umwelt zu erkunden und schonend an Alltagssituationen herangeführt zu werden. Dieses natürliche Umfeld, das Aufwachsen in unserer Familie und das abwechslungsreiche Hofleben, fördert nicht nur die körperliche Gesundheit, sondern stimuliert auch die geistige Entwicklung unserer Tiere.</p>
+                <p>Die idyllische Umgebung rund um unseren Hof bietet den idealen Rahmen für die Aufzucht unserer Toy Australian Shepherds. Die Hunde haben hier ausreichend Platz, um sich zu entfalten, die Umwelt zu erkunden und schonend an Alltagssituationen herangeführt zu werden. Dieses natürliche Umfeld, das Aufwachsen in unserer Familie und das abwechslungsreiche Hofleben, fördert nicht nur die körperliche Gesundheit, sondern stimuliert auch die geistige Entwicklung unserer Tiere.</p>
             </div>
-            <div className="puppies_info__price">
+            {/* <div className="puppies_info__price">
                 <h3>Preis</h3>
                 <p>Die große Preisfrage. Viele Züchter halten sich bezüglich ihrer Preisvorstellungen gerne bedeckt, aber wir haben Verständnis dafür, dass ein Interessent wissen möchte, worauf er sich bei der Bewerbung für einen Welpen finanziell einstellen muss. Wir legen viel Wert auf Offenheit und Ehrlichkeit und erwarten das auch von den zukünftigen Besitzern unserer Welpen. Daher verfolgen wir einen anderen Ansatz und gestalten die Preise und Preisfindung transparent.</p>
                 <div className="puppies_price__background">
@@ -49,7 +49,7 @@ export default function PuppiesPage() {
                 <p>Die Preise für unsere Welpen liegen zwischen ca. 1.800 und 2.500 €. Ab der 5. Woche wird jeder Welpe individuell nach Erscheinungsbild und Wesensmerkmalen bewertet und der Preis wird festgelegt.</p>
                 <p>Unsere Hunde sollen ihren Besitzern ihr ganzes Leben lang Freude bereiten und Familienmitglieder sein. Um sie vor unseriöser Vermehrung zu schützen, geben wir sie als reine Haustiere, ohne Zuchterlaubnis, ab.</p>
                 <p>Wir behalten uns vor, in Ausnahmefällen einzelne Tiere in Zuchtqualität an kleine, ausgewählte Zuchtprogramme abzugeben.</p>
-            </div>
+            </div> */}
         </div>
     );
 }
