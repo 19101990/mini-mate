@@ -38,23 +38,42 @@ export default function PuppiesPage() {
                 </div>
                 <p>Die idyllische Umgebung rund um unseren Hof bietet den idealen Rahmen für die Aufzucht unserer Toy Australian Shepherds. Die Hunde haben hier ausreichend Platz, um sich zu entfalten, die Umwelt zu erkunden und schonend an Alltagssituationen herangeführt zu werden. Dieses natürliche Umfeld, das Aufwachsen in unserer Familie und das abwechslungsreiche Hofleben, fördert nicht nur die körperliche Gesundheit, sondern stimuliert auch die geistige Entwicklung unserer Tiere.</p>
 
-                <h3>Maples und Cosmos "Glückswurf"</h3>
-                <p>Nach einer nicht ganz einfachen Geburt sind wir froh, dass die vier kleinen Racker wohl auf sind und auch Maple sich inzwischen in ihrer Rolle zurecht gefunden hat. Drei Jungs und ein Mädchen wurden geboren und wie der Zufall manchmal so spielt - alle in Red Tri. Die Natur macht eben was sie will. 😉</p>
-                <p>Wir möchten euch Maples und Cosmos "Glückswurf" vorstellen:</p>
+                <h3 className="puppies__litter">Maples und Cosmos "Glückswurf"</h3>
+
                 <div className="puppies__photos">
-                    <img loading="lazy" src="gfx/fortune_1.jpg" alt=""></img>
-                    <img loading="lazy" src="gfx/fortune_2.jpg" alt=""></img>
-                    <img loading="lazy" src="gfx/windfall_1.jpg" alt=""></img>
-                    <img loading="lazy" src="gfx/windfall_2.jpg" alt=""></img>
-                    <img loading="lazy" src="gfx/hope_1.jpg" alt=""></img>
-                    <img loading="lazy" src="gfx/hope_2.jpg" alt=""></img>
-                    <img loading="lazy" src="gfx/chance_1.jpg" alt=""></img>
-                    <img loading="lazy" src="gfx/chance_2.jpg" alt=""></img>
+                    <div>
+                        <img loading="lazy" src="gfx/fortune_1.jpg" alt=""></img>
+                    </div>
+                    <div className="puppies_puppy__txt">
+                        <h3>Minimate's Fortune</h3>
+                        <small>[Red Tri, Rüde]</small>
+                        <p>Mit 290g der Größte von allen. Er hat einen vollständigen weißen Kragen und ein wunderschönes tief dunkles braun.</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src="gfx/windfall_1.jpg" alt=""></img>
+                    </div>
+                    <div className="puppies_puppy__txt">
+                        <h3>Minimate's Windfall</h3>
+                        <small>[Red Tri, Rüde]</small>
+                        <p>Ein kleiner Fratz in gold-brauner Jacke und minimal white. Mit 264g der Zweit-kleinste.</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src="gfx/hope_1.jpg" alt=""></img>
+                    </div>
+                    <div className="puppies_puppy__txt">
+                        <h3>Minimate's Hope</h3>
+                        <small>[Red Tri, Hündin]</small>
+                        <p>Das einzige Mädchen ist ein wahrer Zwerg zwischen ihren Brüdern. Zarte 140 Gramm wiegt sie, lässt sich von den Großen aber nicht von der Milchbar schieben.</p>
+                    </div>
+                    <div>
+                        <img loading="lazy" src="gfx/chance_1.jpg" alt=""></img>
+                    </div>
+                    <div className="puppies_puppy__txt">
+                        <h3>Minimate's Chance</h3>
+                        <small>[Red Tri, Rüde]</small>
+                        <p>Er war der Letzte der das Tageslicht erblickte und ist mit 280g der Zweitgrößte. Bei Chance haben wir den Verdacht auf eine atypische Merlezeichnung. Das wird sich aber wohl erst später eindeutig zeigen.</p>
+                    </div>
                 </div>
-                <p><b>Fortune:</b> Mit 290g der Größte von allen. Er hat einen vollständigen weißen Kragen und ein wunderschönes tief dunkles braun. </p>
-                <p><b>Windfall:</b> Ein kleiner Fratz in gold-brauner Jacke und minimal white. Mit 264g der Zweit-kleinste. </p>
-                <p><b>Hope:</b> Das einzige Mädchen ist ein wahrer Zwerg zwischen ihren Brüdern. Zarte 140 Gramm wiegt sie, lässt sich von den Großen aber nicht von der Milchbar schieben.</p>
-                <p><b>Chance:</b> Er war der Letzte der das Tageslicht erblickte und ist mit 280g der Zweitgrößte. Bei Chance haben wir den Verdacht auf eine atypische Merlezeichnung. Das wird sich aber wohl erst später eindeutig zeigen.</p>
             </div>
             {/* <div className="puppies_info__price">
                 <h3>Preis</h3>

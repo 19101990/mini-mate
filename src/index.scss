@@ -951,6 +951,13 @@ html:not(:has(#main)) header + div {
     color: var(--primary-color);
     text-align: center;
   }
+  .puppies__litter {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Lora", serif;
+  }
   .puppies__photos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -959,6 +966,25 @@ html:not(:has(#main)) header + div {
     margin-bottom: 30px;
     @media(max-width: 978px) {
       grid-template-columns: repeat(2, 1fr);
+    }
+    @media(max-width: 450px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .puppies_puppy__txt {
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+      h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: "Lora", serif;
+      }
+      small {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 14px;
+        color: #aaa;
+      }
     }
   }
   .puppies_price__background {
