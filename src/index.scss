@@ -960,15 +960,46 @@ html:not(:has(#main)) header + div {
   }
   .puppies__photos {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
-    @media(max-width: 978px) {
-      grid-template-columns: repeat(2, 1fr);
+    .puppy__information {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-gap: 10px;
+      @media(max-width: 650px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
     }
-    @media(max-width: 450px) {
-      grid-template-columns: repeat(1, 1fr);
+    .puppies_puppy__img {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+      @media(max-width: 650px) {
+       overflow-x: auto;
+       padding-bottom: 6px;
+        &::-webkit-scrollbar {
+          width: 3px;
+          height: 5px;
+        }
+        
+        &::-webkit-scrollbar-track {
+          -webkit-box-shadow: #fff;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+          border-radius: 10px;
+          background: var(--primary-text);
+        }
+      }
+      img {
+        aspect-ratio: 1;
+        object-fit: cover;
+        @media(max-width: 650px) {
+          min-width: 300px;
+        }
+      }
     }
     .puppies_puppy__txt {
       display: flex;

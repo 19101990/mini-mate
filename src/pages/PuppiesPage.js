@@ -41,37 +41,49 @@ export default function PuppiesPage() {
                 <h3 className="puppies__litter">Maples und Cosmos "Glückswurf"</h3>
 
                 <div className="puppies__photos">
-                    <div>
-                        <img loading="lazy" src="gfx/fortune_1.jpg" alt=""></img>
+                    <div className="puppy__information">
+                        <div className="puppies_puppy__img">
+                            <img loading="lazy" src="gfx/fortune_1.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/fortune_3.jpg" alt=""></img>
+                        </div>
+                        <div className="puppies_puppy__txt">
+                            <h3>Minimate's Fortune</h3>
+                            <small>[Red Tri, Rüde]</small>
+                            <p>Mit 290g der Größte von allen. Er hat einen vollständigen weißen Kragen und ein wunderschönes tief dunkles braun.</p>
+                        </div>
                     </div>
-                    <div className="puppies_puppy__txt">
-                        <h3>Minimate's Fortune</h3>
-                        <small>[Red Tri, Rüde]</small>
-                        <p>Mit 290g der Größte von allen. Er hat einen vollständigen weißen Kragen und ein wunderschönes tief dunkles braun.</p>
+                    <div className="puppy__information">
+                        <div className="puppies_puppy__img">
+                            <img loading="lazy" src="gfx/windfall_1.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/windfall_3.jpg" alt=""></img>
+                        </div>
+                        <div className="puppies_puppy__txt">
+                            <h3>Minimate's Windfall</h3>
+                            <small>[Red Tri, Rüde]</small>
+                            <p>Ein kleiner Fratz in gold-brauner Jacke und minimal white. Mit 264g der Zweit-kleinste.</p>
+                        </div>
                     </div>
-                    <div>
-                        <img loading="lazy" src="gfx/windfall_1.jpg" alt=""></img>
+                    <div className="puppy__information">
+                        <div className="puppies_puppy__img">
+                            <img loading="lazy" src="gfx/hope_1.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/hope_3.jpg" alt=""></img>
+                        </div>
+                        <div className="puppies_puppy__txt">
+                            <h3>Minimate's Hope</h3>
+                            <small>[Red Tri, Hündin]</small>
+                            <p>Das einzige Mädchen ist ein wahrer Zwerg zwischen ihren Brüdern. Zarte 140 Gramm wiegt sie, lässt sich von den Großen aber nicht von der Milchbar schieben.</p>
+                        </div>
                     </div>
-                    <div className="puppies_puppy__txt">
-                        <h3>Minimate's Windfall</h3>
-                        <small>[Red Tri, Rüde]</small>
-                        <p>Ein kleiner Fratz in gold-brauner Jacke und minimal white. Mit 264g der Zweit-kleinste.</p>
-                    </div>
-                    <div>
-                        <img loading="lazy" src="gfx/hope_1.jpg" alt=""></img>
-                    </div>
-                    <div className="puppies_puppy__txt">
-                        <h3>Minimate's Hope</h3>
-                        <small>[Red Tri, Hündin]</small>
-                        <p>Das einzige Mädchen ist ein wahrer Zwerg zwischen ihren Brüdern. Zarte 140 Gramm wiegt sie, lässt sich von den Großen aber nicht von der Milchbar schieben.</p>
-                    </div>
-                    <div>
-                        <img loading="lazy" src="gfx/chance_1.jpg" alt=""></img>
-                    </div>
-                    <div className="puppies_puppy__txt">
-                        <h3>Minimate's Chance</h3>
-                        <small>[Red Tri, Rüde]</small>
-                        <p>Er war der Letzte der das Tageslicht erblickte und ist mit 280g der Zweitgrößte. Bei Chance haben wir den Verdacht auf eine atypische Merlezeichnung. Das wird sich aber wohl erst später eindeutig zeigen.</p>
+                    <div className="puppy__information">
+                        <div className="puppies_puppy__img">
+                            <img loading="lazy" src="gfx/chance_1.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/chance_3.jpg" alt=""></img>
+                        </div>
+                        <div className="puppies_puppy__txt">
+                            <h3>Minimate's Chance</h3>
+                            <small>[Red Tri, Rüde]</small>
+                            <p>Er war der Letzte der das Tageslicht erblickte und ist mit 280g der Zweitgrößte. Bei Chance haben wir den Verdacht auf eine atypische Merlezeichnung. Das wird sich aber wohl erst später eindeutig zeigen.</p>
+                        </div>
                     </div>
                 </div>
             </div>
