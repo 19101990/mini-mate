@@ -42,62 +42,67 @@ export default function PuppiesPage() {
 
                 <div className="puppies__photos">
                     <div className="puppy__information">
-                        <div className="puppies_puppy__img">
-                            <img loading="lazy" src="gfx/fortune_1.jpg" alt=""></img>
-                            <img loading="lazy" src="gfx/fortune_3.jpg" alt=""></img>
-                        </div>
                         <div className="puppies_puppy__txt">
                             <h3>Minimate's Fortune</h3>
                             <small>[Red Tri, Rüde]</small>
                             <p>Mit 290g der Größte von allen. Er hat einen vollständigen weißen Kragen und ein wunderschönes tief dunkles braun.</p>
+                            <p>Fortune ist ein absoluter Kuschelbär. Er ist der Ruhigste aus dem Wurf und einfach nur ein guter Junge. Er liebt seine Menschen und möchte am liebsten überall mit dabei sein. Eher sensibel braucht er meist ein paar Sekunden um sich in einer neuen Situation wohlfühlen.</p>
+                        </div>
+                        <div className="puppies_puppy__img">
+                            <img loading="lazy" src="gfx/fortune_1.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/fortune_3.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/fortune_4.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/fortune_5.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/fortune_6.jpg" alt=""></img>
                         </div>
                     </div>
                     <div className="puppy__information">
-                        <div className="puppies_puppy__img">
-                            <img loading="lazy" src="gfx/windfall_1.jpg" alt=""></img>
-                            <img loading="lazy" src="gfx/windfall_3.jpg" alt=""></img>
-                        </div>
                         <div className="puppies_puppy__txt">
                             <h3>Minimate's Windfall</h3>
                             <small>[Red Tri, Rüde]</small>
                             <p>Ein kleiner Fratz in gold-brauner Jacke und minimal white. Mit 264g der Zweit-kleinste.</p>
+                            <p> Windfall ist unser kleiner Trubelmaker. Als aufgeweckter kleiner Kerl ist er immer ganz vorne mit dabei die Welt zu entdecken und Unfug anzustellen. Fährten erschnüffeln und mit dem Schwanz unseres Hofkaters Oskar zu spielen, sind dabei seine Lieblingsbeschäftigungen.</p>
+                        </div>
+                        <div className="puppies_puppy__img">
+                            <img loading="lazy" src="gfx/windfall_1.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/windfall_3.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/windfall_4.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/windfall_5.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/windfall_6.jpg" alt=""></img>
                         </div>
                     </div>
                     <div className="puppy__information">
-                        <div className="puppies_puppy__img">
-                            <img loading="lazy" src="gfx/hope_1.jpg" alt=""></img>
-                            <img loading="lazy" src="gfx/hope_3.jpg" alt=""></img>
-                        </div>
                         <div className="puppies_puppy__txt">
                             <h3>Minimate's Hope</h3>
                             <small>[Red Tri, Hündin]</small>
                             <p>Das einzige Mädchen ist ein wahrer Zwerg zwischen ihren Brüdern. Zarte 140 Gramm wiegt sie, lässt sich von den Großen aber nicht von der Milchbar schieben.</p>
+                            <p>Hope verdreht jedem in nullkommanichts den Kopf. Wie kann man sich auch nicht in dieses kluge kleine Köpfchen verlieben? Sie bringt definitiv von allem etwas mit: liebevoll, süß, verkuschelt und verspielt, aber auch frech und manchmal mit ihren Brüdern ein regelrechtes Biest.</p>
+                        </div>
+                        <div className="puppies_puppy__img">
+                            <img loading="lazy" src="gfx/hope_1.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/hope_3.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/hope_4.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/hope_5.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/hope_6.jpg" alt=""></img>
                         </div>
                     </div>
                     <div className="puppy__information">
-                        <div className="puppies_puppy__img">
-                            <img loading="lazy" src="gfx/chance_1.jpg" alt=""></img>
-                            <img loading="lazy" src="gfx/chance_3.jpg" alt=""></img>
-                        </div>
                         <div className="puppies_puppy__txt">
                             <h3>Minimate's Chance</h3>
                             <small>[Red Tri, Rüde]</small>
                             <p>Er war der Letzte der das Tageslicht erblickte und ist mit 280g der Zweitgrößte. Bei Chance haben wir den Verdacht auf eine atypische Merlezeichnung. Das wird sich aber wohl erst später eindeutig zeigen.</p>
+                            <p>Chance aka Prinz Charming! Gelocktes Haar und strahlend blaue Augen, ein kleiner Allrounder mit großem Herz. Er ist für jeden Spaß zu haben, lässt sich für alles begeistern, treibt all zu gerne Schabernack, aber liebt es auch zu kuscheln und seinen Menschen haufenweise küsschen zu geben.</p>
+                        </div>
+                        <div className="puppies_puppy__img">
+                            <img loading="lazy" src="gfx/chance_1.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/chance_3.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/chance_4.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/chance_5.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/chance_6.jpg" alt=""></img>
                         </div>
                     </div>
                 </div>
             </div>
-            {/* <div className="puppies_info__price">
-                <h3>Preis</h3>
-                <p>Die große Preisfrage. Viele Züchter halten sich bezüglich ihrer Preisvorstellungen gerne bedeckt, aber wir haben Verständnis dafür, dass ein Interessent wissen möchte, worauf er sich bei der Bewerbung für einen Welpen finanziell einstellen muss. Wir legen viel Wert auf Offenheit und Ehrlichkeit und erwarten das auch von den zukünftigen Besitzern unserer Welpen. Daher verfolgen wir einen anderen Ansatz und gestalten die Preise und Preisfindung transparent.</p>
-                <div className="puppies_price__background">
-                    <p>Dennoch ein paar Worte, die von Herzen kommen:</p>
-                    <p>Tiere auszubeuten um Gewinn zu erzielen, könnte nicht weiter von unseren Zielen entfernt sein. Wir haben uns aus Leidenschaft und Überzeugung für die Zucht dieser Rasse entschieden und möchten mit unserem Zuchtprogramm dazu beitragen, einen gesunden Genpool dieser noch sehr seltenen Rasse in Deutschland und dem europäischen Ausland aufzubauen. Ich denke, bei genauerem Nachdenken ist auch jedem klar, dass die Versorgung der Zuchthunde, die genetische und medizinische Auswertung, das Futter, die tierärztlichen Untersuchungen der trächtigen Hündin und ihrer Welpen, Microchips, Impfungen, Entwurmungen, die Ausstattung usw. einen enormen Kostenfaktor ergeben, der bei einer typischen kleinen Wurfgröße von 3-4 Welpen, nur mit Glück noch gedeckt werden kann. </p>
-                </div>
-                <p>Die Preise für unsere Welpen liegen zwischen ca. 1.800 und 2.500 €. Ab der 5. Woche wird jeder Welpe individuell nach Erscheinungsbild und Wesensmerkmalen bewertet und der Preis wird festgelegt.</p>
-                <p>Unsere Hunde sollen ihren Besitzern ihr ganzes Leben lang Freude bereiten und Familienmitglieder sein. Um sie vor unseriöser Vermehrung zu schützen, geben wir sie als reine Haustiere, ohne Zuchterlaubnis, ab.</p>
-                <p>Wir behalten uns vor, in Ausnahmefällen einzelne Tiere in Zuchtqualität an kleine, ausgewählte Zuchtprogramme abzugeben.</p>
-            </div> */}
         </div>
     );
 }
