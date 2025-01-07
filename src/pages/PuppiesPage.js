@@ -40,6 +40,11 @@ export default function PuppiesPage() {
 
                 <h3 className="puppies__litter">Maples und Cosmos "Glückswurf"</h3>
 
+                <div className="puppies__info">
+                    <img loading="lazy" src="gfx/puppies_all.jpg" alt=""></img>
+                    <p>Alle Welpen haben ein tolles Zuhause gefunden!</p>
+                </div>
+
                 <div className="puppies__photos">
                     <div className="puppy__information">
                         <div className="puppies_puppy__txt">
@@ -54,6 +59,7 @@ export default function PuppiesPage() {
                             <img loading="lazy" src="gfx/fortune_4.jpg" alt=""></img>
                             <img loading="lazy" src="gfx/fortune_5.jpg" alt=""></img>
                             <img loading="lazy" src="gfx/fortune_6.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/fortune_7.jpg" alt=""></img>
                         </div>
                     </div>
                     <div className="puppy__information">
@@ -69,6 +75,7 @@ export default function PuppiesPage() {
                             <img loading="lazy" src="gfx/windfall_4.jpg" alt=""></img>
                             <img loading="lazy" src="gfx/windfall_5.jpg" alt=""></img>
                             <img loading="lazy" src="gfx/windfall_6.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/windfall_7.jpg" alt=""></img>
                         </div>
                     </div>
                     <div className="puppy__information">
@@ -84,6 +91,7 @@ export default function PuppiesPage() {
                             <img loading="lazy" src="gfx/hope_4.jpg" alt=""></img>
                             <img loading="lazy" src="gfx/hope_5.jpg" alt=""></img>
                             <img loading="lazy" src="gfx/hope_6.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/hope_7.jpg" alt=""></img>
                         </div>
                     </div>
                     <div className="puppy__information">
@@ -99,6 +107,7 @@ export default function PuppiesPage() {
                             <img loading="lazy" src="gfx/chance_4.jpg" alt=""></img>
                             <img loading="lazy" src="gfx/chance_5.jpg" alt=""></img>
                             <img loading="lazy" src="gfx/chance_6.jpg" alt=""></img>
+                            <img loading="lazy" src="gfx/chance_7.jpg" alt=""></img>
                         </div>
                     </div>
                 </div>
