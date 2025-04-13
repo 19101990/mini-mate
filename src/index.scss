@@ -854,8 +854,8 @@ html:not(:has(#main)) header + div {
       .dog_image {
         img {
           max-width: 100%;
-          object-fit: cover;
-          height: 100%;
+          object-fit: contain;
+          height: auto;
           border-radius: 10px;
         }
       }
@@ -869,6 +869,30 @@ html:not(:has(#main)) header + div {
       .dog_name {
         font-size: 24px;
         margin: 0;
+      }
+    }
+  }
+  .dog_card__full {
+    .dog_name {
+      font-size: 24px;
+      margin: 0;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    .dog_card__full_img {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 15px;
+      margin-bottom: 20px;
+      img {
+        max-width: 100%;
+        object-fit: cover;
+        height: 100%;
+        border-radius: 10px;
       }
     }
   }

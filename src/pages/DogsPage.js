@@ -22,6 +22,8 @@ export default function DogsPage() {
                                     <li>Gewicht: <b>7 kg</b></li>
                                     <li>Gentests: <b>Frei von allen rassetypischen Erbkrankheiten, inklusive NAD</b></li>
                                     <li>M Lokus: <b>M(267)/m</b></li>
+                                    <li>DOK: <b>frei (Dez 24)</b></li>
+                                    <li>HD/ED/OCD: <b>folgt</b></li>
                                 </ul>
                             </div>
                             <div>
@@ -51,6 +53,10 @@ export default function DogsPage() {
                                     <li>Gewicht: <b>5 kg</b></li>
                                     <li>Gentests: <b>Frei von allen rassetypischen Erbkrankheiten, inklusive NAD</b></li>
                                     <li>M Lokus: <b>Mc(222)/m</b></li>
+                                    <li>DOK: <b>frei (Dez 24)</b></li>
+                                    <li>HD: <b>folgt</b></li>
+                                    <li>ED: <b>0</b></li>
+                                    <li>OCD: <b>frei</b></li>
                                     <li>Cosmo steht ab 2025 einer kleinen Anzahl ausgewählter Hündinnen als Deckrüde zur Verfügung.</li>
                                 </ul>
                             </div>
@@ -64,6 +70,17 @@ export default function DogsPage() {
                     <div class="dog_card__tree">
                         <img loading="lazy" class="tree_desktop" src="gfx/tree_cosmo.png" alt=""></img>
                         <img loading="lazy" class="tree_mobile" src="gfx/tree_cosmo_mobile.png" alt=""></img>
+                    </div>
+                </div>
+                <div className="dog_card__full">
+                    <h4 className="dog_name">Bodhi und Chewie</h4>
+                    <div className="dog_card__full_img">
+                        <img src="gfx/bodhi_1.jpg" alt=""></img>
+                        <img src="gfx/chewie_1.jpg" alt=""></img>
+                    </div>
+                        
+                    <div>
+                        <p>Die Wurfgeschwister Bodhi und Chewie sind zwei selbstgezogene Jungs, die wir in ihrem ersten Lebensjahr weiterhin beobachten und begleiten dürfen. Wenn sich die zwei weiter so vielversprechend entwickeln, darf einer von Ihnen nach einer gesundheitlich Auswertung zukünftig unsere Zucht unterstützen.</p>
                     </div>
                 </div>
             </div>

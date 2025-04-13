@@ -18,7 +18,7 @@ export default function Footer() {
         <div className='footer_links'>
           <a href="https://instagram.com/thecoldwell_life"><span className="icon"><FaInstagram /></span></a>
           <a href="https://wa.me/004915226156940"><span className="icon"><FaWhatsapp /></span></a>
-          <a href="mailto:de-bruyn-amanda@web.de"><span className="icon"><LuMail /></span></a>
+          <a href="mailto:thecoldwell@web.de"><span className="icon"><LuMail /></span></a>
         </div>
 
       </div>
