@@ -72,7 +72,7 @@ export default function DogsPage() {
                         <img loading="lazy" class="tree_mobile" src="gfx/tree_cosmo_mobile.png" alt=""></img>
                     </div>
                 </div>
-                <div className="dog_card__full">
+                <div className="dog_card__full" style={{padding: '0px 15px'}}>
                     <h4 className="dog_name">Bodhi und Chewie</h4>
                     <div className="dog_card__full_img">
                         <img src="gfx/bodhi_1.jpg" alt=""></img>

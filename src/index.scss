@@ -887,6 +887,10 @@ html:not(:has(#main)) header + div {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: 15px;
+      @media(max-width: 978px) {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+      }
       margin-bottom: 20px;
       img {
         max-width: 100%;
