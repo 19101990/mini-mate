@@ -6,9 +6,8 @@ import PuppiesPage from "./pages/PuppiesPage";
 import GalleryPage from "./pages/GalleryPage";
 import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
+import NotFoundPage from "./pages/NotFoundPage";
 import ScrollTop from "./components/ScrollTop";
-import './App.css'
-
 
 import {
   HashRouter,
@@ -17,10 +16,7 @@ import {
   Navigate
 } from "react-router-dom";
 
-
-
 function App() {
-
   return (
     <HashRouter>
       <ScrollTop />
@@ -34,10 +30,12 @@ function App() {
           <Route path="gallery" element={<GalleryPage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="contact" element={<ContactPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />
       </div>
     </HashRouter>
   );
 }
+
 export default App;

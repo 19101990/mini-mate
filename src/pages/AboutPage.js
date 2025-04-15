@@ -10,8 +10,46 @@ export default function AboutPage() {
         setIsActive(!isActive)
     }
 
+    const aboutSchema = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "MiniMate - Toy Australian Shepherd Zucht",
+        "description": "Kleine Hobbyzucht von Toy Australian Shepherds im Harz. Fokus auf Gesundheit, Temperament und Schönheit.",
+        "founders": [
+            {
+                "@type": "Person",
+                "name": "Amanda",
+                "description": "Mitbegründerin der MiniMate Zucht"
+            },
+            {
+                "@type": "Person",
+                "name": "Ewa",
+                "description": "Mitbegründerin der MiniMate Zucht"
+            }
+        ],
+        "location": {
+            "@type": "Place",
+            "name": "The Cold Well",
+            "description": "Ein idyllischer Hof im Harz, der seit 1766 in Familienbesitz ist. Hier leben wir mit unseren Hunden, Hühnern, Enten und Katzen."
+        },
+        "areaServed": {
+            "@type": "Country",
+            "name": "Deutschland"
+        },
+        "experience": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Hundezucht Erfahrung",
+            "credentialCategory": "Personal Experience",
+            "yearsOfExperience": "90",
+            "description": "Über 90 Jahre gemeinsame Erfahrung mit Hunden verschiedener Rassen"
+        }
+    };
+
     return (
         <div id="about_page">
+            <script type="application/ld+json">
+                {JSON.stringify(aboutSchema)}
+            </script>
             <h2 className="headline">Über uns</h2>
             <div className="about_us">
                 <p className="about_title">Wer The Cold Well ist? Das sind wir! Amanda und Ewa vom Hof im Kalten Brunnen</p>
@@ -34,8 +72,8 @@ export default function AboutPage() {
                     </div>
                 </div>
 
-                <p>Das war eine schmerzhafte, aber wichtige Erfahrung, die uns für die Adoption eines neuen Hundes die Augen geöffnet und uns schlussendlich auf die Toy Australian Shepherds aufmerksam gemacht hat. Ein Hütehund, der für seinen unvergleichlichen „will to please“ bekannt ist, sich ganz seinem Besitzer hingibt und auf Grund der handlichen Größe überall dabei sein kann. Ein Hund, der erst seit verhältnismäßig kurzer Zeit von den amerikanischen Schafsfarmen in die Wohnzimmer von Familien umgezogen ist und dadurch zähe, anpassungsfähige kleine Allround-Talente geworden sind.</p>
-                <p>Schon nach kurzer Zeit mit einem Toy Aussie in unserem Leben, waren wir absolut begeistert von ihrer Loyalität und Intelligenz. Noch nie hatten wir einen so anpassungsfähigen und unproblematischen Hund gesehen. Für uns war klar, dass wir die Entwicklung und Etablierung dieser Rasse in Deutschland begleiten wollen. Und hier sind wir nun: The Cold Well’s Minimates  </p>
+                <p>Das war eine schmerzhafte, aber wichtige Erfahrung, die uns für die Adoption eines neuen Hundes die Augen geöffnet und uns schlussendlich auf die Toy Australian Shepherds aufmerksam gemacht hat. Ein Hütehund, der für seinen unvergleichlichen "will to please" bekannt ist, sich ganz seinem Besitzer hingibt und auf Grund der handlichen Größe überall dabei sein kann. Ein Hund, der erst seit verhältnismäßig kurzer Zeit von den amerikanischen Schafsfarmen in die Wohnzimmer von Familien umgezogen ist und dadurch zähe, anpassungsfähige kleine Allround-Talente geworden sind.</p>
+                <p>Schon nach kurzer Zeit mit einem Toy Aussie in unserem Leben, waren wir absolut begeistert von ihrer Loyalität und Intelligenz. Noch nie hatten wir einen so anpassungsfähigen und unproblematischen Hund gesehen. Für uns war klar, dass wir die Entwicklung und Etablierung dieser Rasse in Deutschland begleiten wollen. Und hier sind wir nun: The Cold Well's Minimates  </p>
             </div>
             <div className="about_contact">
                 <p>Wenn du noch mehr über die Züchter deines Welpen und das Leben auf dem Hof wissen möchtest, kannst du gerne weiterlesen oder uns einfach kontaktieren.</p>

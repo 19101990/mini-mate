@@ -1,16 +1,65 @@
 import React from 'react';
 
-
 export default function DogsPage() {
+    const dogsSchema = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "Animal",
+                    "name": "Cross L's Foggy Maple Forest",
+                    "breed": "Toy Australian Shepherd",
+                    "color": "Red Merle",
+                    "gender": "Female",
+                    "height": "31.5 cm",
+                    "weight": "7 kg",
+                    "description": "Maple ist unser kleiner Schatten. Sie ist eine sehr liebevolle und sanftmütige Hündin, die es liebt, Zeit mit ihren Menschen zu verbringen. Mit einem stark ausgeprägten 'Will to please' ausgestattet, ist sie die perfekte Partnerin für uns.",
+                    "image": "gfx/maple_uh.jpg",
+                    "healthStatus": {
+                        "@type": "MedicalCondition",
+                        "name": "Gesund",
+                        "description": "Frei von allen rassetypischen Erbkrankheiten, inklusive NAD"
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "Animal",
+                    "name": "Enloe's Cosmic Eclipse",
+                    "breed": "Toy Australian Shepherd",
+                    "color": "Black Tri",
+                    "gender": "Male",
+                    "height": "32 cm",
+                    "weight": "5 kg",
+                    "description": "Cosmo ist ein unheimlich freundlicher und verspielter Rüde, der stets gut gelaunt auf der Suche nach Schabernack ist. Trotz einer guten Portion Arbeitswillen und Motivation, mit seinem Besitzer zu arbeiten, hat er eine sehr sanfte und sensible Seite.",
+                    "image": "gfx/cosmo_uh.jpg",
+                    "healthStatus": {
+                        "@type": "MedicalCondition",
+                        "name": "Gesund",
+                        "description": "Frei von allen rassetypischen Erbkrankheiten, inklusive NAD"
+                    }
+                }
+            }
+        ]
+    };
+
     return (
         <div className='dogs_page'>
+            <script type="application/ld+json">
+                {JSON.stringify(dogsSchema)}
+            </script>
             <h2 className="headline">Unsere Minimates</h2>
             <div className="dogs_page_wrapper">
                 <div className="dog_card__wrapper">
                     <div class="dog_card">
                         <div className="dog_image"><img src="gfx/maple_uh.jpg" alt=""></img></div>
                         <div className="dog_description">
-                            <h4 className="dog_name">Cross L’s Foggy Maple Forest</h4>
+                            <h4 className="dog_name">Cross L's Foggy Maple Forest</h4>
                             <small>(USA Import)</small>
                             <div>
                                 <ul>
@@ -27,7 +76,7 @@ export default function DogsPage() {
                                 </ul>
                             </div>
                             <div>
-                                <p>Maple ist unser kleiner Schatten. Sie ist eine sehr liebevolle und sanftmütige Hündin, die es liebt, Zeit mit ihren Menschen zu verbringen. Mit einem stark ausgeprägten „Will to please“ ausgestattet, ist sie die perfekte Partnerin für uns.</p>
+                                <p>Maple ist unser kleiner Schatten. Sie ist eine sehr liebevolle und sanftmütige Hündin, die es liebt, Zeit mit ihren Menschen zu verbringen. Mit einem stark ausgeprägten "Will to please" ausgestattet, ist sie die perfekte Partnerin für uns.</p>
                                 <p>Sie bringt diese hervorragenden Wesensmerkmale, einen kräftigen Körperbau, markanten Kopf und eisblaue Augen mit in unser Zuchtprogramm. Die Champions in ihrem Pedigree sprechen für sich.</p>
                             </div>
                         </div>
@@ -41,7 +90,7 @@ export default function DogsPage() {
                     <div class="dog_card">
                         <div className="dog_image"><img src="gfx/cosmo_uh.jpg" alt=""></img></div>
                         <div className="dog_description">
-                            <h4 className="dog_name">Enloe‘s Cosmic Eclipse</h4>
+                            <h4 className="dog_name">Enloe's Cosmic Eclipse</h4>
                             <small>(USA Import)</small>
                             <div>
                                 <ul>
